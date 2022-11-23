@@ -1,3 +1,6 @@
+const { ColorPair } = require("./utils");
+const { getColorFromPairNumber, getPairNumberFromColor } = require("./color-coder");
+
 function test() {
     pairNumber = 4;
     let testPair1 = getColorFromPairNumber(pairNumber);
