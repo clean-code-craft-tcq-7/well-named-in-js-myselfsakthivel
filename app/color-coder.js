@@ -1,5 +1,4 @@
 const { ColorPair } = require("./utils");
-
 const MajorColorNames = [
     "WHITE", "RED", "BLACK", "YELLOW", "VIOLET"
 ];
@@ -46,3 +45,5 @@ function getPairNumberFromColor(pair) {
 
     return (majorIndex * MinorColorNames.length) + (minorIndex + 1);
 }
+
+module.exports = { getPairNumberFromColor, getColorFromPairNumber };
