@@ -8,9 +8,7 @@ function printColorCodes() {
         let zeroBasedPairNumber = i - 1;
         let majorIndex = parseInt(zeroBasedPairNumber / minorSize);
         let minorIndex = parseInt(zeroBasedPairNumber % minorSize);
-        pair.majorColor = MajorColorNames[majorIndex];
-        pair.minorColor = MinorColorNames[minorIndex];
-        console.log(`${i}:[${MajorColorNames[majorIndex]},${MinorColorNames[minorIndex]}`);
+        console.log(`${i}:[${MajorColorNames[majorIndex]},${MinorColorNames[minorIndex]}]`);
     }
 }
 
