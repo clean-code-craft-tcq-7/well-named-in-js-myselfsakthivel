@@ -1,3 +1,5 @@
+const { ColorPair } = require("./utils");
+
 const MajorColorNames = [
     "WHITE", "RED", "BLACK", "YELLOW", "VIOLET"
 ];
